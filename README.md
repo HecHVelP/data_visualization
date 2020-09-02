@@ -1,4 +1,4 @@
-# data_visualization
+# molecular_motion
 
 Simulation of a grain of pollen in the surface of a drop of water
 
