@@ -13,7 +13,7 @@ while True:
 
     # Plot the points, and show the plot.
     point_numbers = list(range(rw.num_points))
-    plt.plot(rw.x_values, rw.y_values, linewidth=1)
+    plt.scatter(rw.x_values, rw.y_values, c=point_numbers, cmap=plt.cm.Blues, edgecolors=None, s=5)
 
     # Emphasize the first and last points.
     plt.scatter(0, 0, c='green', edgecolor=None, s=100)
